@@ -1,0 +1,94 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge"/> 
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+		<title>Alex's Portfolio - PPP (Portaits of People and Pets)</title>
+		<link href='https://fonts.googleapis.com/css?family=Lato:300,100' rel='stylesheet' type='text/css' />
+		<link type="text/css" rel="stylesheet" media="all" href="../../global.css" />
+		<script src="../../json.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script src="../../cookie.js"></script>
+		<script src="../../global.js"></script>
+	</head>
+<body data-resolution="3840 2560 1920 1280 1024 640" data-respath="">
+	
+<ol id="marker">
+</ol>
+
+<div id="sidebar">
+	<div class="foreground">
+		<div id="profile" class="camera icon"></div>
+		<h1>Alex's Portfolio</h1>
+		<ul id="nav">
+			<li class="gallery " data-image="intro"><a href="../../intro"><span>Intro</span></a></li><li><span class="label">Gallery</span><ul><li class="gallery " data-image="friday-evening-prayer"><a href="../../gallery/candids"><span>Candids</span></a></li><li class="gallery " data-image="a-colorful-buffet"><a href="../../gallery/food"><span>Food</span></a></li><li class="gallery active" data-image="thanksgiving-happiness"><a href="../../gallery/ppp-portaits-of-people-and-pets"><span>PPP (Portaits of People and Pets)</span></a></li><li class="gallery " data-image="a-red-bouqet"><a href="../../gallery/still-life"><span>Still Life</span></a></li><li class="gallery " data-image="an-evening-of-light"><a href="../../gallery/sunset"><span>Sunset</span></a></li></ul></li>			 
+		</ul>
+	</div>
+	
+	<ul id="control">
+	<li><a href="#" id="resbutton"><span class="monitor icon"></span><span class="restext"></span></a></li>
+	<li style="display: block"><a href="#" id="textbutton" class="active"><span class="toggle icon"></span><span class="text">hide text</span></a></li>
+	<li style="display: block"><a href="#" id="sharebutton"><span class="heart icon"></span>share</a></li>
+	<li  style="display: block"><a href="#" id="download"><span class="download icon"></span>download</a></li>
+	</ul>
+			
+	<div class="background"></div>
+</div>
+
+<div id="resolution">
+</div>
+
+<div id="share">
+	<ul>
+	<li><a href="https://news.ycombinator.com/submit" target="_blank"><span class="icon hackernews"></span> Hackernews</a></li>
+	
+	<li><a href="#" onclick="window.open('https://www.facebook.com/sharer.php?u=' + encodeURIComponent(window.location)); return false">
+		<span class="icon facebook"></span> Facebook
+	</a></li>
+	
+	<li><a href="#" onclick="window.open('https://www.reddit.com/submit?url=' + encodeURIComponent(window.location)); return false">
+		<span class="icon reddit"></span> Reddit
+	</a></li>
+	
+	<li><a href="#" id="pinterest"><span class="icon pinterest"></span> Pinterest</a></li>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('#pinterest').click(function(){
+				window.open('http://pinterest.com/pin/create/button/?url='+encodeURIComponent(window.location)+'&media='+encodeURIComponent(window.location)+($(current_slide).data('url')+'/'+$('#resolution li').eq(0).data('res')+'.jpg'));
+				return false;
+			});
+		});
+	</script>
+	
+	
+	<li><a href="#" onclick="window.open('https://twitter.com/intent/tweet?url=' + encodeURIComponent(window.location)); return false">
+		<span class="icon twitter"></span> Twitter
+	</a></li>
+	
+	</ul>
+</div>
+
+<div id="main">
+	<div class="slide" style="color: #ffffff; background-color: #8B7267" data-type="image" data-width="60" data-height="30" data-imagewidth="3840" data-imageheight="2560" data-textcolor="#ffffff" data-color1="#413C35" data-color2="#8B7267" data-color3="#908876" data-color4="#6F959B" data-color5="#A8A29B" data-color6="#C8CBC9" data-color7="" data-videoformats="h264 vp8" data-polygon=''> <a name="1" class="internal"></a> <div class="post" style="top: 55%; left: 20%; width: 60%; height: 30%; font-size: 35px; font-weight: bold"> <div class="content"> Thanksgiving Happiness </div> </div> <img class="image blank" src="//:0" width="3840" height="2560" data-url="thanksgiving-happiness" /> </div> <div class="slide" style="color: #ffffff; background-color: #564837" data-type="image" data-width="60" data-height="30" data-imagewidth="3840" data-imageheight="2560" data-textcolor="#ffffff" data-color1="#16110F" data-color2="#564837" data-color3="#A36A36" data-color4="#6C817D" data-color5="#AE9852" data-color6="#D39657" data-color7="#C7C2B6" data-videoformats="h264 vp8" data-polygon=''> <a name="2" class="internal"></a> <div class="post" style="top: 55%; left: 20%; width: 60%; height: 30%"> <div class="content"> </div> </div> <img class="image blank" src="//:0" width="3840" height="2560" data-url="contemplation" /> </div> <div class="slide" style="color: #ffffff; background-color: #59351F" data-type="image" data-width="60" data-height="30" data-imagewidth="3840" data-imageheight="2560" data-textcolor="#ffffff" data-color1="#181719" data-color2="#59351F" data-color3="#635D53" data-color4="#8E5638" data-color5="#A4956C" data-color6="#778483" data-color7="#ADA4A0" data-videoformats="h264 vp8" data-polygon=''> <a name="3" class="internal"></a> <div class="post" style="top: 55%; left: 20%; width: 60%; height: 30%"> <div class="content"> </div> </div> <img class="image blank" src="//:0" width="3840" height="2560" data-url="giving-thanks-together" /> </div> <div class="slide" style="color: #ffffff; background-color: #3C3D3D" data-type="image" data-width="60" data-height="30" data-imagewidth="3840" data-imageheight="5760" data-textcolor="#ffffff" data-color1="#1B1B1C" data-color2="#3C3D3D" data-color3="#5F5F5D" data-color4="#8F8D74" data-color5="#7C7A80" data-color6="#A3A19A" data-color7="#D3CFC5" data-videoformats="h264 vp8" data-polygon=''> <a name="4" class="internal"></a> <div class="post" style="top: 55%; left: 20%; width: 60%; height: 30%"> <div class="content"> </div> </div> <img class="image blank" src="//:0" width="3840" height="5760" data-url="doggo" /> </div> <div class="slide" style="color: #ffffff; background-color: #8E7364" data-type="image" data-width="60" data-height="30" data-imagewidth="3840" data-imageheight="2560" data-textcolor="#ffffff" data-color1="#5E584E" data-color2="#8E7364" data-color3="#A4A84C" data-color4="#9A976B" data-color5="#727F85" data-color6="#ACA8A2" data-color7="#F4F4F4" data-videoformats="h264 vp8" data-polygon=''> <a name="5" class="internal"></a> <div class="post" style="top: 55%; left: 20%; width: 60%; height: 30%; font-size: 35px; font-weight: bold"> <div class="content"> Farm Love </div> </div> <img class="image blank" src="//:0" width="3840" height="2560" data-url="farm-love" /> </div> <div class="slide" style="color: #ffffff; background-color: #483B34" data-type="image" data-width="60" data-height="30" data-imagewidth="3840" data-imageheight="2560" data-textcolor="#ffffff" data-color1="#242323" data-color2="#483B34" data-color3="#625C5B" data-color4="#936F5B" data-color5="#9D897C" data-color6="#B2AEAE" data-color7="#FBF7F0" data-videoformats="h264 vp8" data-polygon=''> <a name="6" class="internal"></a> <div class="post" style="top: 55%; left: 20%; width: 60%; height: 30%; font-size: 35px; font-weight: bold"> <div class="content"> Sunset Joy </div> </div> <img class="image blank" src="//:0" width="3840" height="2560" data-url="sunset-joy" /> </div> <div class="slide" style="color: #ffffff; background-color: #8F7561" data-type="image" data-width="60" data-height="30" data-imagewidth="3840" data-imageheight="5760" data-textcolor="#ffffff" data-color1="#36322E" data-color2="#8F7561" data-color3="#A58E71" data-color4="#CC9977" data-color5="#B0A290" data-color6="#BBD0E4" data-color7="#D5E4FF" data-videoformats="h264 vp8" data-polygon=''> <a name="7" class="internal"></a> <div class="post" style="top: 55%; left: 20%; width: 60%; height: 30%"> <div class="content"> </div> </div> <img class="image blank" src="//:0" width="3840" height="5760" data-url="peaceful-hike" /> </div> <div class="slide" style="color: #ffffff; background-color: #4B4B45" data-type="image" data-width="60" data-height="30" data-imagewidth="3840" data-imageheight="2560" data-textcolor="#ffffff" data-color1="#0F1518" data-color2="#4B4B45" data-color3="#9D6652" data-color4="#6F8283" data-color5="#9E9B95" data-color6="#ADAEAD" data-color7="#C6D2ED" data-videoformats="h264 vp8" data-polygon=''> <a name="8" class="internal"></a> <div class="post" style="top: 55%; left: 20%; width: 60%; height: 30%"> <div class="content"> </div> </div> <img class="image blank" src="//:0" width="3840" height="2560" data-url="beach-picnic" /> </div> 
+	
+	<div id="comments">
+	<div id="disqus_thread"></div>
+	</div>
+	
+	<script type="text/javascript">
+		var disqus_shortname = '';
+		var disqus_identifier = 'gallery/ppp-portaits-of-people-and-pets';
+		
+		if(disqus_shortname){
+			(function() {
+				var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+				dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+				(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+			})();
+		}
+	</script>
+</div>
+
+</body>
+</html>
