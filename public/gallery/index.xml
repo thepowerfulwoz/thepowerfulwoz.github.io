@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Galleries on Osprey Delight Demo</title>
+    <title>Galleries on Alex Wolkoff</title>
     <link>http://localhost:1313/gallery/</link>
-    <description>Recent content in Galleries on Osprey Delight Demo</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Galleries on Alex Wolkoff</description>
+    <generator>Hugo 0.125.1</generator>
     <language>en-US</language>
     <lastBuildDate>Fri, 19 Apr 2024 02:24:22 -0400</lastBuildDate>
     <atom:link href="http://localhost:1313/gallery/index.xml" rel="self" type="application/rss+xml" />
@@ -17,9 +17,9 @@
     </item>
     <item>
       <title>Chat Zotero</title>
-      <link>http://localhost:1313/gallery/my-item/</link>
+      <link>http://localhost:1313/gallery/chat-zotero/</link>
       <pubDate>Fri, 19 Apr 2024 02:24:22 -0400</pubDate>
-      <guid>http://localhost:1313/gallery/my-item/</guid>
+      <guid>http://localhost:1313/gallery/chat-zotero/</guid>
       <description></description>
     </item>
   </channel>

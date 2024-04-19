@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Osprey Delight Demo</title>
+    <title>Alex Wolkoff</title>
     <link>http://localhost:1313/</link>
-    <description>Recent content on Osprey Delight Demo</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content on Alex Wolkoff</description>
+    <generator>Hugo 0.125.1</generator>
     <language>en-US</language>
-    <lastBuildDate>Fri, 19 Apr 2024 02:24:22 -0400</lastBuildDate>
+    <lastBuildDate>Fri, 19 Apr 2024 16:19:27 -0400</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Alex Wolkoff</title>
@@ -16,10 +16,17 @@
       <description></description>
     </item>
     <item>
+      <title>Welcome to my Blog!</title>
+      <link>http://localhost:1313/blog/welcome/</link>
+      <pubDate>Fri, 19 Apr 2024 16:19:27 -0400</pubDate>
+      <guid>http://localhost:1313/blog/welcome/</guid>
+      <description>Welcome to my blog, where you will see posts about open source, security, and other tech topics, as well as Jewish Law (Halacha).</description>
+    </item>
+    <item>
       <title>Chat Zotero</title>
-      <link>http://localhost:1313/gallery/my-item/</link>
+      <link>http://localhost:1313/gallery/chat-zotero/</link>
       <pubDate>Fri, 19 Apr 2024 02:24:22 -0400</pubDate>
-      <guid>http://localhost:1313/gallery/my-item/</guid>
+      <guid>http://localhost:1313/gallery/chat-zotero/</guid>
       <description></description>
     </item>
     <item>
@@ -34,7 +41,7 @@
       <link>http://localhost:1313/about/</link>
       <pubDate>Fri, 19 Apr 2024 01:04:15 -0400</pubDate>
       <guid>http://localhost:1313/about/</guid>
-      <description>I&amp;rsquo;m Alex Wolkoff, a State College based software engineer, tech enthusiast, and reader, who never stops learning. I am currently studying Cybersecurity Analytics and Operations, at the Pennsylvania State University (WE ARE!). Below are some projects that I&amp;rsquo;ve been working on.&#xA;I&amp;rsquo;m also a photographer that got their start taking pictures of flowers and plant life, but I am starting to fall in love with capturing joy on people&amp;rsquo;s faces. [Click here] to see my photos</description>
+      <description>I&amp;rsquo;m Alex Wolkoff, a State College based software engineer, tech enthusiast, and reader, who never stops learning. I am currently studying Cybersecurity Analytics and Operations, at the Pennsylvania State University (WE ARE!). Below are some projects that I&amp;rsquo;ve been working on.&#xA;I&amp;rsquo;m also a photographer that got their start taking pictures of flowers and plant life, but I am starting to fall in love with capturing joy on people&amp;rsquo;s faces. Click here to see my photos</description>
     </item>
   </channel>
 </rss>
