@@ -3,9 +3,9 @@
   
 
 <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
-  <title>404 Page not found | Osprey Delight Demo</title>
+  <title>Photos | Osprey Delight Demo</title>
 
-  <meta name="title" content="404 Page not found | Osprey Delight Demo">
+  <meta name="title" content="Photos | Osprey Delight Demo">
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -18,9 +18,9 @@
 
   
     
-  <meta property="og:title" content="404 Page not found | Osprey Delight Demo">
+  <meta property="og:title" content="Photos | Osprey Delight Demo">
   <meta property="og:type" content="website">
-  <meta property="og:url" content="http://localhost:1313/404.html">
+  <meta property="og:url" content="http://localhost:1313/photos/">
   <meta property="og:image" content="http://localhost:1313/images/osprey-delight.png">
   
         <link rel="icon" type="image/png" href="http://localhost:1313/favicon.png">
@@ -29,7 +29,7 @@
 
   
 
-  <link rel="canonical" href="http://localhost:1313/404.html">
+  <link rel="canonical" href="http://localhost:1313/photos/">
   
   
 
@@ -158,33 +158,29 @@ http://localhost:1313/Logo-96x.png 96w" alt="Home">
 </section>
 
     <main>
-      <div class="row full center-xs middle-xs">
-        <div class="col-xs-12">
-            <h1>404: Not Found</h1>
-            <p>Sorry, the requested page does not exist.</p>
-            <div style="transform:rotate(-180deg);text-align:center"><p id="noChoiceFound">The 🍰 is a lie!</p></div>
-            <div id="foundChoices" hidden>We can offer you the following similar page(s):</div>
-            <ul id="choices" hidden><li class="choice">[Gallery]
-                    <a href="http://localhost:1313/gallery/personal/">🔗 Alex Wolkoff</a></li><li class="choice">[Gallery]
-                    <a href="http://localhost:1313/gallery/my-item/">🔗 Chat Zotero</a></li><li class="choice">[Gallery]
-                    <a href="http://localhost:1313/gallery/">🔗 Galleries</a></li><li class="choice">
-                    <a href="http://localhost:1313/">🔗 Osprey Delight Demo</a></li><li class="choice">
-                    <a href="http://localhost:1313/photos/">🔗 Photos</a></li><li class="choice">
-                    <a href="http://localhost:1313/about/">🔗 About</a></li>
-                    </ul>
-            <script type="application/json" id="jsonContent">
-            [
-                
-                        "gallery Alex Wolkoff  http://localhost:1313/gallery/personal/",
-                        "gallery Chat Zotero  http://localhost:1313/gallery/my-item/",
-                        "gallery Galleries  http://localhost:1313/gallery/",
-                        " Osprey Delight Demo  http://localhost:1313/",
-                        " Photos  http://localhost:1313/photos/",
-                        " About  http://localhost:1313/about/"
-            ]
-            </script>
-        </div>
-      </div>
+
+      <section class="container">
+        <section class="content">
+          <h1> Photos </h1>
+
+            <div class="sub-header">
+              April 19, 2024 · 0 minutes read
+            </div>
+
+          <article class="entry-content">
+            
+          </article>
+
+          <div class="pagination">
+            
+              <a href="http://localhost:1313/about/">&laquo; About</a>
+            
+            
+          </div>
+        </section>
+        <br>
+        
+      </section>
 
     </main>
     <footer>
@@ -441,25 +437,4 @@ http://localhost:1313/Logo-96x.png 96w" alt="Home">
 
 
   </body>
-  <script>
-      const loc = window.location.pathname;
-      const seg = loc.substring(loc.lastIndexOf('/') + 1).toUpperCase();
-      if (seg.length > 1) {
-          const els = document.getElementsByClassName("choice");
-          const txt = JSON.parse(document.getElementById('jsonContent').innerHTML);
-          var cnt = 0;
-          for (var i = 0; i < els.length; i++) {
-              if (txt[i].toUpperCase().includes(seg)) {
-                  cnt++;
-              } else {
-                  els[i].style.display = "none";
-              }
-          }
-          if (cnt > 0) {
-              document.getElementById('noChoiceFound').setAttribute("hidden", true);
-              document.getElementById('foundChoices').removeAttribute("hidden");
-              document.getElementById('choices').removeAttribute("hidden");
-          }
-      }
-  </script>
 </html>

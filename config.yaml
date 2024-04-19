@@ -145,10 +145,14 @@ Menu:
       identifier: blog
       url: "/#blog"
       weight: 3
+    - name: "Photos"
+      identifier: photos
+      url: "/#photos"
+      weight: 4
     - name: "Contact"
       identifier: contact
       url: "/#contact"
-      weight: 4
+      weight: 5
     # - name: ""
     #   # pre makes it possible to use arbitrary HTML before the name, e.g. referencing icons here is possible:
     #   pre: '<svg class="icon"><use xlink:href="#icon-external"/></svg>&nbsp;'
