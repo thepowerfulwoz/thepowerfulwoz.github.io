@@ -1,7 +1,7 @@
 +++
 title = 'About'
 date = 2024-04-19T01:04:15-04:00
-draft = true
+draft = false
 +++
 
 I'm Alex Wolkoff, a State College based software engineer, tech enthusiast, and reader, who never stops learning. I am currently studying Cybersecurity Analytics and Operations, at the Pennsylvania State University (**WE ARE!**). Below are some projects that I've been working on.
